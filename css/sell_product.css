@@ -1,6 +1,19 @@
-/* Product */
-.sell_product{ 
-    position: relative;
+/* Sell Product Page */
+.container {
+    width: 100%;
+}
+
+/* Main */
+.main {
+    width: 80%;
+    max-width: 1280px;
+    height: auto;
+    /* height: calc(100% - 3rem - 500px); */
+    margin: 2rem auto;
+}
+
+.sell_product {
+  
     display: flex;
     width: 100%;
     height: auto;
@@ -11,6 +24,7 @@
 /* Product Image */
 .sell_product .product_image {
     width: 50%;
+    margin: 1rem 0;
 }
 
 .sell_product .img_file {
@@ -23,24 +37,35 @@
 
 /* Product Data */
 .sell_product .product_data {
+ 
     width: 50%;
+    margin: 1rem 0
 }
 
 .sell_product .product_info {
     position: sticky;
-    top: 0;
+    top: 4rem;
     padding: 1rem 1rem;
-    margin: 1rem auto;
+    margin: 0 auto;
 }
 
 /* Product Table */
 .sell_product table {
-    font-size: 14px;
+    /* font-size: 15px; */
     width: 100%;
 }
 
+.sell_product table thead h1 {
+    font-size: 25px;
+    margin: 0 0 1rem 0;
+}
+
+.sell_product table tbody tr:first-child td:first-child {
+    width: 25%;
+}
+
 .sell_product table td {
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .sell_product table .button {

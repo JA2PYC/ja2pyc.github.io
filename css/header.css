@@ -1,8 +1,10 @@
 /* Header */
-header {
+.header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    background-color: #0f0f0f;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, .08), 0 5px 5px rgba(0, 0, 0, .15);
     margin-bottom: 2rem;
 }
 
@@ -10,11 +12,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    max-width: 1280px;
     height: 3rem;
-    box-shadow: 3px 0 3px rgba(0, 0, 0, .08), 0 3px 3px rgba(0, 0, 0, .15);
     color: #f0f0f0;
-    background-color: #0f0f0f;
+    margin: auto;
 }
 
 .header_container .header_logo {

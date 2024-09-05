@@ -8,80 +8,93 @@
     <link rel="stylesheet" href="/css/base_style.css" type="text/css">
     <link rel="stylesheet" href="/css/header.css" type="text/css">
     <link rel="stylesheet" href="/css/sell_product.css" type="text/css">
+    <link rel="stylesheet" href="/css/footer.css" type="text/css">
 </head>
 
 <body>
-    <header>
-        <div class="header_container">
-            <div class="header_logo"><a href="/">Logo</a></div>
-            <div class="header_title"><a href="/">Site Name</a></div>
-            <div class="header_nav">
-                <nav>
-                    <ul>
-                        <li><a href="/html/login.html">로그인</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="sell_product">
-            <div class="product_image">
-                <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
-                <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
-                <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
-                <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
-            </div>
-            <div class="product_data">
-                <div class="product_info">
-                    <form action="order.jsp" method="post">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th colspan="2">
-                                        <h1>남성 자켓</h1>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><label for="price">판매가</label></td>
-                                    <td>100,000원</td>
-                                </tr>
-                                <tr>
-                                    <td>쿠폰</td>
-                                    <td>첫 구매 쿠폰 30%</td>
-                                </tr>
-                                <tr>
-                                    <td>판매 등급</td>
-                                    <td>상</td>
-                                </tr>
-                                <tr>
-                                    <td>제품 상태</td>
-                                    <td>[중고] 사진 외의 특별한 오염이나 훼손이 없는 양호한 상태</td>
-                                </tr>
-                                <tr>
-                                    <td>최종 가격</td>
-                                    <td>70,000원</td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">
-                                        <div class="button">
-                                            <input type="button" value="장바구니">
-                                            <input type="button" value="바로구매">
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </form>
+    <div class="container">
+        <header class="header">
+            <div class="header_container">
+                <div class="header_logo"><a href="/">Logo</a></div>
+                <div class="header_title"><a href="/">Site Name</a></div>
+                <div class="header_nav">
+                    <nav>
+                        <ul>
+                            <li><a href="/html/login.html">로그인</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer></footer>
+        </header>
+        <main class="main">
+            <div class="sell_product">
+                <div class="product_image">
+                    <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
+                    <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
+                    <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
+                    <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
+                </div>
+                <div class="product_data">
+                    <div class="product_info">
+                        <form action="order.jsp" method="post">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">
+                                            <h1>남성 자켓</h1>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><label for="price">판매가</label></td>
+                                        <td>100,000원</td>
+                                    </tr>
+                                    <tr>
+                                        <td>쿠폰</td>
+                                        <td>첫 구매 쿠폰 30%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>판매 등급</td>
+                                        <td>상</td>
+                                    </tr>
+                                    <tr>
+                                        <td>제품 상태</td>
+                                        <td>[중고] 사진 외의 특별한 오염이나 훼손이 없는 양호한 상태</td>
+                                    </tr>
+                                    <tr>
+                                        <td>최종 가격</td>
+                                        <td>70,000원</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="button">
+                                                <input type="button" value="장바구니">
+                                                <input type="button" value="바로구매">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer_logo"><img src="/image/tree-8844431_1280.jpg" alt="tree-8844431_1280" class="logo_img"></div>
+            <div class="footer_info">
+                <div class="info_company">우리회사</div>
+                <div class="info_ceo">아무개</div>
+                <div class="info_tel">010-0000-0000</div>
+                <div class="info_email">email@email.email</div>
+                <div class="info_license">710-01-01010</div>
+                <div class="info_adress">울산 남구 삼산동 삼산중로 100번길 26</div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

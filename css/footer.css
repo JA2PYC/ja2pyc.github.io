@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 1280px;
+    height: 10rem;
+    margin: auto;
+}
+
+.footer_logo {
+    height: 100%
+}
