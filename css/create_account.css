@@ -8,12 +8,12 @@
 
 /* Table */
 .create_account table {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 300;
     width: 90%;
     max-width: 1080px;
     padding: 1rem 1rem;
-    margin: auto;
+    margin: 1rem auto;
 }
 
 /* Table Tbody */
@@ -66,6 +66,5 @@ input[type="date"] {
     color: #f0f0f0;
     background-color: #0f0f0f;
     border: 0;
+    margin: 1rem 0;
 }
-
-/* Footer */

@@ -21,6 +21,12 @@ a {
     border: 0;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
 /* Main Container */
 main {
     /* width: ; */
