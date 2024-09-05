@@ -1,4 +1,56 @@
-:root {
-    --main-color: red;
+/* Product */
+.sell_product{ 
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 1rem auto;
 }
 
+/* Product Image */
+.sell_product .product_image {
+    width: 50%;
+}
+
+.sell_product .img_file {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+/* Product Data */
+.sell_product .product_data {
+    width: 50%;
+}
+
+.sell_product .product_info {
+    position: sticky;
+    top: 0;
+    padding: 1rem 1rem;
+    margin: 1rem auto;
+}
+
+/* Product Table */
+.sell_product table {
+    font-size: 14px;
+    width: 100%;
+}
+
+.sell_product table td {
+    padding: 1rem 1rem;
+}
+
+.sell_product table .button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sell_product table input[type="button"] {
+    width: 45%;
+    color: #f0f0f0;
+    background-color: #0f0f0f;
+    padding: 1rem 2rem;
+}

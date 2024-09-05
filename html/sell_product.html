@@ -12,40 +12,41 @@
 
 <body>
     <header>
-        <div class="header_logo">Logo</div>
-        <div class="header_title">Site Name</div>
-        <div class="header_nav">
-            <nav>
-                <ul>
-                    <li><a href="/html/login">Login</a></li>
-                </ul>
-            </nav>
+        <div class="header_container">
+            <div class="header_logo"><a href="/">Logo</a></div>
+            <div class="header_title"><a href="/">Site Name</a></div>
+            <div class="header_nav">
+                <nav>
+                    <ul>
+                        <li><a href="/html/login.html">로그인</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
-        <div style="display: flex;">
-            <div style="width: 50%;">
-                <div class="image">
-                    <img style="width: 100%; height: auto;" src="/images/shirt-2650677_1280.jpg" alt="shirt">
-                    <img style="width: 100%; height: auto;" src="/images/asian-woman-7127159_1280.jpg" alt="shirt">
-                    <img style="width: 100%; height: auto;" src="/images/fashion-8012239_1280.jpg" alt="shirt">
-                </div>
+        <div class="sell_product">
+            <div class="product_image">
+                <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
+                <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
+                <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
+                <img class="img_file" src="/image/khaki-2723896_1280.jpg" alt="khaki-2723896_1280">
             </div>
-            <div style="position:fixed; top: 0; right: 0; width: 50%;">
-                <div class="productinfo" style="padding: 1rem 2rem;">
+            <div class="product_data">
+                <div class="product_info">
                     <form action="order.jsp" method="post">
                         <table>
                             <thead>
                                 <tr>
                                     <th colspan="2">
-                                        <h1>남성 셔츠</h1>
+                                        <h1>남성 자켓</h1>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td><label for="price">판매가</label></td>
-                                    <td>30,000원</td>
+                                    <td>100,000원</td>
                                 </tr>
                                 <tr>
                                     <td>쿠폰</td>
@@ -61,13 +62,17 @@
                                 </tr>
                                 <tr>
                                     <td>최종 가격</td>
-                                    <td>21,000원</td>
+                                    <td>70,000원</td>
                                 </tr>
                                 <tr>
-                                    <td colspan="2"><input style="width: 100%;" type="button" value="장바구니"></td>
+                                    <td colspan="2">
+                                        <div class="button">
+                                            <input type="button" value="장바구니">
+                                            <input type="button" value="바로구매">
+                                        </div>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td colspan="2"><input style="width: 100%;" type="button" value="바로구매"></td>
                                 </tr>
                             </tbody>
                         </table>
