@@ -1,14 +1,12 @@
 :root {
-    --main-color-1: #00FFA3;
-    --main-color-2: #76D1F5;
-    --main-color-3: #7680F5;
-    --main-color-4: #76A9F5;
-    --main-color-5: #76F5F0;
-    --main-color-6: #C7E8F5;
-}
-
-body {
-    margin: 0;
+    --base-color-1: #00FFA3;
+    --base-color-2: #76D1F5;
+    --base-color-3: #7680F5;
+    --base-color-4: #76A9F5;
+    --base-color-5: #76F5F0;
+    --base-color-6: #C7E8F5;
+    --base-color-7: #112233;
+    --base-color-8: #110033;
 }
 
 a {
@@ -27,9 +25,21 @@ img {
     object-fit: contain;
 }
 
+input {
+    box-sizing: border-box;
+}
+
+/* Body Container */
+body {
+    background-color: #121212;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
 /* Main Container */
 main {
-    /* width: ; */
-    /* max-width: 1280px; */
+    width: 1280px;
+    max-width: 100%;
     margin: auto;
 }
